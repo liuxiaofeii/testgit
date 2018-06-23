@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>知识收集系统</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+	<!--页面最顶部-图标，搜素 page-top-->
+	<div class="page-top" style="overflow: hidden;">
+	<div class="row">
+		<div class="col-md-2 col-sm-3 col-xs-4" style="padding:0;">
+			<img class="img-responsive center-block" src="img/logo.jpg" />
+		</div>
+		<div class="col-md-offset-8 col-md-2 col-sm-offset-6 col-sm-3 col-xs-offset-4 col-xs-4" style="padding: 20px;">
+			<form class="page-top-form">
+				<div class="form-group">
+					<label class="sr-only" for="search">搜索</label>
+					<input type="text" class="form-control" id="search" name="search" placeholder="搜索"/>
+					<span class="btn btn-default glyphicon glyphicon-search"></span>
+				</div>
+			</form>
+		</div>
+	</div>		
+	</div>
+	
+	<!--页面导航条，page-nav-->
+	<div class="page-nav">
+		<div class="navbar navbar-default">
+			<div class="navbar-header my-navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+				<ul class="nav navbar-nav">
+					<li class="pull-left">
+						<a href="#">首页</a>
+					</li>
+					<li class="pull-left">
+						<a href="#">实践项目</a>
+					</li>
+				</ul>
+			</div>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="nav navbar-nav pull-right mylogin">
+					<li id="login">
+						<a href="#">
+							登陆
+						
+						</a>
+						<form class="login">
+							<div class="form-group">
+								<label for="uname">用户名</label>
+								<input type="text" id="uname" name="uname">
+							</div>
+							<div class="form-group">
+								<label for="password">密码</label>
+								<input type="text" id="uname" name="uname">
+							</div>
+							<a href="#">忘记密码？</a>
+							<button type="button" class="btn btn-primary">登陆</button>
+						</form>
+						
+					</li>
+					<li>
+						<a href="#">注册</a>
+					</li>
+					<li>
+						<a href="#">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="page-con">
+		<div class="container" style="width:95%;position: relative;">
+			<div class="row">
+				<div class="mycol" id="accordion">
+					<ul class="list-group panel-group">
+						<li class="disabled list-group-item">阶段</li>
+						<li class="list-group-item panel">
+							<div id="html">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsehtml" data-toggle="collapse"  aria-expanded="true" style="text-decoration: none;">html</a>
+								</h4>
+							</div>
+							<div id="collapsehtml" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="css">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsecss" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" style="text-decoration: none;">css</a>
+								</h4>
+							</div>
+							<div id="collapsecss" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="bt">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsebt" data-toggle="collapse" data-parent="#accordion" style="text-decoration: none;">bootstrap</a>
+								</h4>
+							</div>
+							<div id="collapsebt" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="js">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsejs" data-toggle="collapse" data-parent="#accordion" style="text-decoration: none;">javscript</a>
+								</h4>
+							</div>
+							<div id="collapsejs" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="json">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsejson" data-toggle="collapse" data-parent="#accordion" style="text-decoration: none;">JSON</a>
+								</h4>
+							</div>
+							<div id="collapsejson" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="ajax">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapseajax" data-toggle="collapse" data-parent="#accordion" style="text-decoration: none;">ajax</a>
+								</h4>
+							</div>
+							<div id="collapseajax" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						<li class="list-group-item panel">
+							<div id="jq">
+								<h4 class="panel-title">
+									<a class="collapsed" href="#collapsejq" data-toggle="collapse" data-parent="#accordion" style="text-decoration: none;">jquery</a>
+								</h4>
+							</div>
+							<div id="collapsejquery" class="panel-collapse collapse">
+								<ul class="panel-body">
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+										<li class="list-group-item"><a href="#">我是html1</a></li>
+								</ul>
+							</div>
+							
+						</li>
+						
+					</ul>
+				</div>
+				<div class="mycol1 col-md-offset-2 col-md-10 col-xs-offset-8 col-xs-4">
+					<nav class="navbar navbar-default">
+							<div class="mynav navbar-header">
+								<span class="nav navbar-nav">我是html</span>
+							</div>
+					</nav>
+					<iframe class="myiframe" src="https://www.baidu.com" style="border: 1px solid black;">
+						
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-footer">
+		
+	</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	(function(){
+		$(window).scroll(function(){
+			var sTop=parseInt($(window).scrollTop());
+			if(sTop>135){
+				var mycol=$('.mycol');
+				mycol.css({'top':'0'});
+			}else{
+				var mycol=$('.mycol');
+				mycol.css({'top':'135px'});
+			}
+		})
+		var login=$('.login');
+		$('#login').hover(function(){
+			
+			login.css({'display':'block'});
+			setTimeout(function(){
+				login.css({'top':'50px','opacity':'1'});
+			},100);
+			
+		},function(){
+			login.css({'top':'100px','opacity':'0'});
+			setTimeout(function(){
+				login.css({'display':'none'});
+			},100)
+		})
+	})();
+</script>
+</body>
+</html>
+
+
+
